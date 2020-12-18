@@ -1,0 +1,289 @@
+/*
+======================================
+|   |   |   Global CSS
+======================================
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'PT Sans' , sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+/*
+======================================
+|   |   |   Header Section
+======================================
+*/
+.header-section{
+    width: 100%;
+    background: #fcdb00;
+    padding: 20px 0px;
+}
+
+.menu{
+    width: 100%;
+    position: relative;
+    z-index: 15;
+    background:  #fcdb00;
+}
+
+
+.navbar .nav-link{
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    margin-left: 40px;
+}
+
+
+.navbar .navbar-collapse{
+    margin-right: 8%;
+}
+.banner{
+    width: 100%;
+    padding: 60px 0px 130px;
+}
+
+.header-inner h1{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.header-inner h6{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #313841;
+}
+
+.header-inner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.app-store{
+    width: 100%;
+    display: block;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.app-store li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 50px;
+}
+
+.app-store li a{
+    color: #010101;
+    -webkit-transition: 1s ease;transition: 1s ease;
+}
+
+.app-store li a:hover{
+    color: #fff;
+}
+
+
+/*
+======================================
+|   |   |   Features Section
+======================================
+*/
+.features{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.feature-title{
+    width: 100%;
+    text-align: center;
+}
+
+.feature-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.feature-title p{
+    font-size: 20px;
+    color: #313841;
+    margin-bottom: 20px;
+}
+
+.features-inner{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.features-inner .media{
+    padding: 0px 10px;
+}
+
+.features-inner .media .fa{
+    font-size: 50px;
+    color: #010101;
+    padding-right: 20px;
+}
+
+.features-inner .media h5{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.features-inner .media p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+/*
+======================================
+|   |   |   footer-section
+======================================
+*/
+.footer-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #010101;
+}
+
+.top-footer{
+    text-align: center;
+}
+
+
+.top-footer h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fcdb00;
+}
+
+.top-footer p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #898989;
+}
+
+
+.sub-form{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.sub-form .form-inline{
+    width: 80%;
+}
+
+.sub-form .form-inline .form-group{
+    width: 75%;
+}
+
+.sub-form .form-inline .form-group .form-control{
+    width: 100%;
+    height: 50px;
+}
+
+.sub-form .form-inline .form-group input{
+    
+}
+
+.sub-form .btn-sub{
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    background:  #fcdb00;
+    color: #010101;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.footer-social{
+    padding: 30px 0px 70px;
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-social li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+
+.footer-social li .fa{
+    font-size: 40px;
+    color: #fcdb00;
+    transition: 1s ease;
+    
+}
+
+.footer-social li .fa:hover{
+    color: #fff;
+}
+
+address{
+    color: #fff;
+}
+
+
+.main-footer-inner p{
+    margin-bottom: -5px;
+}
+
+.main-footer-inner p a{
+    color: #fff;
+    transition: 1s ease;
+}
+
+.main-footer-inner p a:hover{
+    color: #fcdb00;
+}
+/*
+======================================
+|   |   |   
+======================================
+*/
+
+
+
+
+
+
+/*
+======================================
+font-family: 
+
+main color: #fcdb00;
+
+slider text color : #010101,#313841, #555555;
+
+Feature text color : #313841,#313841, #898989;
+
+
+
+
+======================================
+*/

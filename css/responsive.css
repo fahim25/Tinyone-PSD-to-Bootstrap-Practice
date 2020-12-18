@@ -1,0 +1,117 @@
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar .nav-link {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .features-inner .media .fa {
+        font-size: 30px;
+    }
+
+    .features-inner .media h5 {
+        font-size: 22px;
+    }
+
+    .features-inner .media p {
+        font-size: 14px;
+    }
+
+    .sub-form .form-inline {
+        width: 100%;
+    }
+
+    .sub-form .form-inline .form-group {
+        width: 80%;
+    }
+
+    .sub-form .btn-sub {
+        margin-left: 30%;
+    }
+
+    .top-footer p {
+        font-size: 16px;
+    }
+
+
+    address {
+        text-align: center;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar .nav-link {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .header-inner h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .header-inner h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-inner p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .app-store {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .feature-title h1 {
+        text-align: left;
+    }
+
+    .feature-title p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+
+
+    .sub-form .form-inline {
+        width: 100%;
+    }
+
+    .sub-form .form-inline .form-group {
+        width: 80%;
+    }
+
+    .sub-form .btn-sub {
+        margin-left: 20%;
+    }
+
+    .top-footer p {
+        font-size: 16px;
+    }
+
+
+    address {
+        text-align: center;
+    }
+}
